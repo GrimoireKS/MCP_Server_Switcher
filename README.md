@@ -43,4 +43,4 @@ pyinstaller --name="MCP Server Switcher" --windowed --icon=resources/icon_.png -
 
 ## 许可证
 
-本项目采用MIT许可证。详见[LICENSE](LICENSE)文件。
+本项目采用GNU通用公共许可证第3版（GPL v3）。详见[LICENSE](LICENSE)文件。
