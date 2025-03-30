@@ -29,7 +29,13 @@ MCP Server Switcher是一个用于管理和切换MCP服务器配置的图形界�
 
 ## 开发说明
 
-此应用程序可以使用py2app打包为macOS应用程序。
+此应用程序使用PyInstaller打包为可执行文件。
+
+### 打包命令
+
+```bash
+pyinstaller --windowed --icon=resources/icon.png --name="MCP Server Switcher" main.py
+```
 
 ## 声明
 
