@@ -8,6 +8,8 @@
 !main.py
 !requirements.txt
 !setup.py
+!README.md
+!LICENSE
 
 # 不忽略.gitignore本身
 !.gitignore

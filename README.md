@@ -34,7 +34,7 @@ MCP Server Switcher是一个用于管理和切换MCP服务器配置的图形界�
 ### 打包命令
 
 ```bash
-pyinstaller --windowed --icon=resources/icon.png --name="MCP Server Switcher" main.py
+pyinstaller --name="MCP Server Switcher" --windowed --icon=resources/icon_.png --add-data="all_mcp_config.json:." --add-data="resources/*.png:resources" main.py
 ```
 
 ## 声明
